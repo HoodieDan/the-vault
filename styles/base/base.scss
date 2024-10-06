@@ -6,24 +6,44 @@
 }
 
 html {
-  @extend %cover;
-  $vw: 100vw;
-  font-size: calc($vw / 1920px * 10px);
-  position: fixed;
   line-height: 1;
-  overflow: hidden;
+  overflow-y: scroll;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 15px);
+  // color: $Inactive;
+
+  @include media('<mid') {
+    font-size: calc($vw / 1720px * 15px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 15px);
+  }
 
   @include media('<phone') {
-    font-size: calc($vw / 750px * 10px);
+    font-size: calc($vw / 750px * 15px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 15px);
   }
 }
 
-body {
-  @extend %cover;
-  font-family: $font-suisse-bp;
-  @extend %description-16;
-  position: fixed;
+h6 {
+  &.section__name {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;  
+  }
 }
+
+.page {
+  padding: 1rem;
+  z-index: z('content');
+}
+
+// body {
+//   font-family: $font-suisse-bp;
+// }
 
 a {
   color: inherit;
@@ -39,49 +59,16 @@ button {
   outline: none;
 }
 
+
+.page-btn {
+  margin: 2rem;
+
+  @include media('<phone') {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 img {
   vertical-align: middle;
 }
-
-.content {
-  @extend %cover;
-}
-
-#collections-container canvas {
-  pointer-events: none;
-  position: relative;
-  z-index: z('canvas');
-}
-
-#about-container canvas,
-#detail-container canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: z('canvas');
-  pointer-events: none;
-}
-
-// .page-transiton-enter-active {
-//   position: fixed;
-//   height: 100%;
-//   width:100%;
-//  top:0;
-//   left:0;
-//   right:0;
-//   bottom:0; 
-//   z-index: z('page'); 
-// }
-
-// .page-transiton-leave-active {
-//   position: fixed;
-//   height: 100%;
-//   width:100%;
-//  top:0;
-//   left:0;
-//   right:0;
-//   bottom:0;  
-//   /* z-index:4; */
-// }
