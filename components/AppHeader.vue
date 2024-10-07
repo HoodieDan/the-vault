@@ -4,11 +4,11 @@
             <div class="container-lg container-fluid d-flex justify-content-between">
                 <div class="left__nav">
                     <img src="../assets/images/logo.png" class="nav__logo" alt="logo">
-                    <NuxtLink :to="{ name: 'index' }" class="nav__link" >Home</NuxtLink>
-                    <NuxtLink :to="{ name: 'AboutUs' }" class="nav__link" >About Us</NuxtLink>
-                    <NuxtLink :to="{ name: 'Products' }" class="nav__link" >Products</NuxtLink>
-                    <NuxtLink :to="{ name: 'Raffle' }" class="nav__link" >Raffle</NuxtLink>
-                    <NuxtLink :to="{ name: 'ContactUs' }" class="nav__link" >Contact Us</NuxtLink>
+                    <NuxtLink :to="{ name: 'index' }" class="nav__link" :class="isRoute('index')? 'active' : ''" >Home</NuxtLink>
+                    <NuxtLink :to="{ name: 'AboutUs' }" class="nav__link" :class="isRoute('AboutUs')? 'active' : ''" >About Us</NuxtLink>
+                    <NuxtLink :to="{ name: 'Products' }" class="nav__link" :class="isRoute('Products')? 'active' : ''" >Products</NuxtLink>
+                    <NuxtLink :to="{ name: 'Raffle' }" class="nav__link" :class="isRoute('Raffle')? 'active' : ''" >Raffle</NuxtLink>
+                    <NuxtLink :to="{ name: 'ContactUs' }" class="nav__link" :class="isRoute('ContactUs')? 'active' : ''" >Contact Us</NuxtLink>
                 </div>
                 <div class="right__nav">
                     <button class="me-5"> stay notified</button>
@@ -30,14 +30,28 @@
             </div>
         </nav>
         <aside :class="navIsOpen ? 'show' : ''">
-
+            <div>
+                <NuxtLink :to="{ name: 'index' }" class="aside__link" :class="isRoute('index')? 'active' : ''" @click.prevent="toggleNav" >Home</NuxtLink>
+                <NuxtLink :to="{ name: 'AboutUs' }" class="aside__link" :class="isRoute('AboutUs')? 'active' : ''" @click.prevent="toggleNav" >About Us</NuxtLink>
+                <NuxtLink :to="{ name: 'Products' }" class="aside__link" :class="isRoute('Products')? 'active' : ''" @click.prevent="toggleNav" >Products</NuxtLink>
+                <NuxtLink :to="{ name: 'Raffle' }" class="aside__link" :class="isRoute('Raffle')? 'active' : ''" @click.prevent="toggleNav" >Raffle</NuxtLink>
+                <NuxtLink :to="{ name: 'ContactUs' }" class="aside__link" :class="isRoute('ConactUs')? 'active' : ''" @click.prevent="toggleNav" >Contact Us</NuxtLink>
+            </div>
+            <div>
+                <button>stay notified</button>
+            </div>
         </aside>
     </div>
 </template>
 <script setup>
+const route = useRoute();
 const navIsOpen = ref(false);
 
 const toggleNav = () => {
     navIsOpen.value = !navIsOpen.value
+}
+
+const isRoute = (current) => {
+    return current === route.name
 }
 </script>
