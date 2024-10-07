@@ -1,36 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url(https://db.onlinewebfonts.com/c/4c4a87973ef80fc72049e01b9085fadc?family=ABC+Diatype);
 
 @font-face {
-    font-family: $font-george-x;
-    src: url('/fonts/george_x-webfont.woff2') format('woff2'),
-      url('/fonts/george_x-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-  
-@font-face {
-    font-family: $font-suisse-bp;
-    src: url('/fonts/suissebpintl-light-webfont.woff2') format('woff2'),
-      url('/fonts/suissebpintl-light-webfont.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: block;
-}
-  
-@font-face {
-    font-family: $font-suisse-bp;
-    src: url('/fonts/suissebpintl-regular-webfont.woff2') format('woff2'),
-      url('/fonts/suissebpintl-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-}
-  
-@font-face {
-    font-family: $font-suisse-bp;
-    src: url('/fonts/suissebpintl-ultralight-webfont.woff2') format('woff2'),
-      url('/fonts/suissebpintl-ultralight-webfont.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: block;
+  font-family: $font-abc-diatype;
+  src: url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.eot");
+  src: url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/4c4a87973ef80fc72049e01b9085fadc.svg#ABC Diatype")format("svg");
 }

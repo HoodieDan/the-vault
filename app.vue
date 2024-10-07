@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts" setup>
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 </script>
 
 <style lang="scss">
