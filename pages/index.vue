@@ -1,7 +1,7 @@
 <template>
     <div>
         <section class="hero">
-            {{ store.count }}
+            
         </section>
     </div>
 </template>
