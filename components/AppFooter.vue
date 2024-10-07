@@ -5,6 +5,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="footer__logo">
+                            hello
                             <img src="../assets/images/logo.svg" alt="logo">
                         </div>
                     </div>
