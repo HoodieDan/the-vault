@@ -47,6 +47,10 @@ body {
   font-family: $font-abc-diatype;
   background-color: $color-black;
   color: $color-white;
+  
+  @include media('<phone') {
+    overflow-x: hidden;
+  }
 }
 
 a {
@@ -125,6 +129,11 @@ button {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  
+  &.gradient__bg {
+    background: linear-gradient(272.79deg, #075451 2.33%, #5AA8A1 53.14%, #81D8D0 99.12%);
+    color: $color-cadet-white;
+  }
 
   p {
     color: $color-dark-green !important;

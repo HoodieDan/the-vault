@@ -9,7 +9,7 @@ nav {
     background-color: #FFF;
     z-index: z('nav');
     background: rgba(255, 255, 255, 0.1);
-    border-bottom: 0.2px solid $color-white;
+    border-bottom: 0.2px solid $color-stroke;
     backdrop-filter: blur(25px);
 
     &.opened {

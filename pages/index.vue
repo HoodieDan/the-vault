@@ -1,12 +1,13 @@
 <template>
     <div>
         <section class="hero">
-            
+            {{ store.count }}
         </section>
     </div>
 </template>
-<script>
+<script setup>
 
+const store = useDataStore();
 </script>
 <style>
 .hero {
@@ -14,5 +15,6 @@
     background: url('../assets/images/hero.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 80px;
 }
 </style>
