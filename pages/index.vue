@@ -2,6 +2,7 @@
     <div>
         <section class="hero">
             {{ store.count }}
+            <p>{{ store.count }}</p>
         </section>
     </div>
 </template>
