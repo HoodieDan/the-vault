@@ -1,7 +1,12 @@
 <template>
     <div>
         <section class="hero">
+<<<<<<< HEAD
+            {{ store.count }}
+            <p>{{ store.count }}</p>
+=======
             
+>>>>>>> 9b89c5af303d4320614ab03d2dddd3190653fd7d
         </section>
     </div>
 </template>
