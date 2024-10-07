@@ -1,6 +1,6 @@
 <template>
     <div>
-       start 
+       start now
     </div>
 </template>
 <script>
