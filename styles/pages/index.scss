@@ -136,23 +136,23 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 16px 32px;
+                padding: 24px 48px;
                 margin-right: 16px;
-                height: 80px;
-                width: 140px;
+                height: 90px;
+                width: 180px;
                 border-radius: 10px;
                 flex-shrink: 0;
             }
 
             @keyframes moveSlideshow {
                 100% { 
-                  transform: translateX(-1404px);  
+                  transform: translateX(-1764px);  
                 }
             }
 
             @keyframes moveOppositeSlideshow {
                 0% { 
-                  transform: translateX(-1404px);  
+                  transform: translateX(-1764px);  
                 }
             }
         }
