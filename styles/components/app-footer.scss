@@ -32,5 +32,35 @@ footer {
             line-height: 24px;
             padding-right: 32px;
         }
+
+        &.footer__bottom {
+            padding-top: 40px;
+            align-items: center;
+
+            .social__networks {
+                display: flex;
+
+                .social__network {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $color-black;
+                    border-radius: 10px;
+                    border: 1px solid $color-stroke;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 16px;
+                }
+            }
+
+            .we__accept {
+                p {
+                    margin-top: 16px;
+                }
+                .payment__methods {
+                    margin-top: 16px;
+                }
+            }
+        }
     }
 }
