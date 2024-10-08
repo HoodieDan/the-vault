@@ -37,7 +37,7 @@
         </section>
 
         <section class="our__mission container">
-            <h4>OUR MISSION</h4>
+            <h5>OUR MISSION</h5>
             <h1 class="crimson-text">
                 <span class="gradient-text-1">CURATING</span> TOP TIER VALUE WITH
                 <span class="gradient-text-2">LUXURY</span> BRANDS IN EVERY BOX,
@@ -66,6 +66,189 @@
             <div class="button__div">
                 <button>LEARN MORE</button>
             </div>
+        </section>
+
+        <section class="partners__section">
+            <h5>PARTNERS</h5>
+            <h3>OUR TOP BRANDS</h3>
+            <div class="marquees">
+                <div class="marquee">
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                </div>
+                <div class="marquee">
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                </div>
+                <div class="marquee">
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-1.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-2.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-3.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-4.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-5.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-6.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-7.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-8.png" class="img-fluid" alt="brand 1">
+                    </div>
+                    <div class="marquee__card">
+                        <img src="../assets/images/brand-9.png" class="img-fluid" alt="brand 1">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products__section container">
+            <h5>PRODUCTS</h5>
+            <h3>STREETWEARS</h3>
         </section>
 
         <section class="get__notified">
