@@ -27,14 +27,164 @@ html {
   }
 
   @include media('<small') {
-    font-size: calc($vw / 500px * 13px);
+    font-size: calc($vw / 500px * 14px);
+  }
+}
+
+h1 {
+  font-weight: 700;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 50px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 50px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 50px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 50px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 38px);
+  }
+
+  &.crimson-text {
+    font-family: $font-crimson-text;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 42px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 42px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 42px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 42px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 28px);
+  }
+
+  &.crimson-text {
+    font-family: $font-crimson-text;
+    font-weight: 500;
+  }
+}
+
+h3 {
+  font-weight: 700;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 35px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 35px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 35px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 35px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 24px);
+  }
+
+  &.crimson-text {
+    font-family: $font-crimson-text;
+    font-weight: 500;
+  }
+}
+
+h4 {
+  font-weight: 700;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 30px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 30px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 30px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 30px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 20px);
+  }
+
+  &.crimson-text {
+    font-family: $font-crimson-text;
+    font-weight: 500;
+  }
+}
+
+h5 {
+  font-weight: 700;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 24px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 24px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 24px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 24px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 18px);
+  }
+
+  &.crimson-text {
+    font-family: $font-crimson-text;
+    font-weight: 500;
   }
 }
 
 h6 {
-  &.section__name {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;  
+  font-weight: 500;
+  $vw: 100vw;
+  font-size: calc($vw / 1920px * 16px);
+
+  @include media('<mid') {
+    font-size: calc($vw / 1366px * 16px);
+  }
+
+  @include media('<tablet') {
+    font-size: calc($vw / 1024px * 14px);
+  }
+
+  @include media('<phone') {
+    font-size: calc($vw / 750px * 16px);
+  }
+
+  @include media('<small') {
+    font-size: calc($vw / 500px * 15px);
   }
 }
 
@@ -120,7 +270,7 @@ input, textarea {
 }
 
 button {
-  padding: 0.8rem 1.3rem;
+  padding: 16px 30px;
   background-color: $color-cadet-white;
   color: $color-dark-green;
   border: none;
@@ -152,4 +302,8 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.crimson-text {
+  font-family: $font-crimson-text;
 }

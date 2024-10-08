@@ -4,4 +4,72 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
+    position: relative;
+
+    .hero__content {
+        padding: 30vh 32px 0;
+
+        @include media('<phone') {
+            padding-top: 10vh;
+        }
+
+        h1 {
+            line-height: 1.5;
+        }
+
+        p {
+            padding-top: 16px;
+            line-height: 20px;
+            padding-bottom: 16px;
+            width: 70%;
+        }
+
+        .hero__card__div {
+            padding: 50px;
+
+            @include media('<phone') {
+                padding-right: 0;
+                position: absolute;
+                bottom: 100px;
+                right: 10px;
+            }
+
+            @include media('<small') {
+            }
+
+            .hero__card {
+                background: rgba(129, 216, 208, 0.4);
+                border: 0.2px solid $color-cadet-white;
+                backdrop-filter: blur(15px);
+                border-radius: 10px;
+                padding: 16px;
+                width: 100%;
+                position: relative;
+                top: 120px;
+
+                @include media('<phone') {
+                    // width: 60%;
+                }
+
+                .hero__card__small__div {
+                    small {
+                        font-size: 9px;
+                    }
+                }
+
+                p { 
+                    padding-top: 0;
+                    font-size: 14px;
+                    padding-bottom: 0;
+                }
+
+                button {
+                    padding: 8px;
+                    width: 100%;
+                    font-size: 9px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
 }
