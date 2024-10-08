@@ -13,10 +13,6 @@
             padding-top: 10vh;
         }
 
-        h1 {
-            line-height: 1.5;
-        }
-
         p {
             padding-top: 16px;
             line-height: 20px;
@@ -70,6 +66,79 @@
                     margin-top: 10px;
                 }
             }
+        }
+    }
+}
+
+.our__mission {
+    padding: 50px 32px;
+
+    h4 {
+        color: $color-stroke;
+        line-height: 1.3;
+    }
+
+    .row {
+        margin-top: 30px;
+
+        .mission__pill {
+            border: 1px solid $color-stroke;
+            border-radius: 20px;
+            padding: 16px;
+            width: 100%;
+            margin-bottom: 20px;
+
+            h6 {
+                margin-bottom: 10px;
+            }
+
+            small {
+                color: $color-stroke;
+            }
+        }
+    }
+
+    .button__div {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.get__notified {
+    height: 100vh;
+    background: url('~/assets/images/get-notified.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .get__notified__box {
+        background: rgba(17, 17, 17, 0.6);
+        backdrop-filter: blur(20px);
+        border-radius: 20px;
+        padding: 48px 64px;
+        text-align: center;
+        width: 60%;
+
+        @include media('<phone') {
+            width: 90%;
+            padding: 32px;
+        }
+
+        h6 {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            margin-bottom: 35px;
+        }
+
+        button {
+            margin-top: 16px;
+            width: 100%;
         }
     }
 }

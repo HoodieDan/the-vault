@@ -33,6 +33,7 @@ html {
 
 h1 {
   font-weight: 700;
+  line-height: 1.5;
   $vw: 100vw;
   font-size: calc($vw / 1920px * 50px);
 
@@ -226,7 +227,7 @@ input, textarea {
   border: 1px solid $color-white;
   width: 100%;
   border-radius: 10px;
-  padding: 0.8rem 1rem;
+  padding: 14px 30px;
   margin-bottom: 1rem;
   margin-top: 0.5rem;
   color: $color-white;
@@ -260,7 +261,7 @@ input, textarea {
   }
 
   &::placeholder {
-    opacity: 70%;
+    color: $color-white;
   }
 
   &:focus {
