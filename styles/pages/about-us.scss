@@ -36,7 +36,7 @@
 
         .col-11 {
             text-align: left;
-            padding-left: 16px;
+            // padding-left: 16px;
 
             h5 {
                 margin-bottom: 16px;
@@ -53,5 +53,26 @@
         .row {
             margin-bottom: 24px;
         }
+    }
+}
+
+.still__got {
+    width: 100%;
+
+    .row {
+        width: 90%;
+        max-width: 480px;
+        .col-6 {
+            &:nth-of-type(1) {
+                color: $color-green;
+                font-weight: 500;
+            }
+            &:nth-of-type(2) {
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+
+        margin-bottom: 32px;
     }
 }
