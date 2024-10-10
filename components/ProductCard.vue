@@ -8,7 +8,9 @@
             <small class="deets">Guaranteed value : {{ product.guaranteedValue }}</small>
             <small class="deets">Contains : {{ product.contains }} items</small>
             <small class="deets">Featuring : {{ product.featuring }}</small>
-            <button class="gradient__bg">SHOP NOW</button>
+            <NuxtLink :to="{ name: 'product-id', params: { id: product.id } }">
+              <button class="gradient__bg">SHOP NOW</button>
+            </NuxtLink>
         </div>
     </div>
 </template>

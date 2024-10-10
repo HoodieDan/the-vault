@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="index__page">
         <section class="hero">
             <div class="row hero__content container-fluid">
                 <div class="col-lg-7 col-md-7">
@@ -8,7 +8,9 @@
                     <p>
                         A curated luxury street ware boxes featured guaranteed Amiri, Off white , Palm angels, Heron,preston and more in every box
                     </p>
-                    <button class="gradient__bg">Shop Now</button>
+                    <NuxtLink :to="{ name: 'Products' }">
+                        <button class="gradient__bg">Shop Now</button>
+                    </NuxtLink>
                 </div>
 
                 <div class="col-lg-5 col-md-5 d-flex align-items-end hero__card__div">
@@ -26,9 +28,11 @@
                                     <small class="d-block">Contains : 2 - 3 items</small>
                                     <small class="d-block">Featuring : off white, palm angels , amiri and heron preston</small>
                                 </div>
-                                <button class="gradient__bg">
-                                    SHOP NOW
-                                </button>
+                                <NuxtLink :to="{ name: 'Products' }">
+                                    <button class="gradient__bg">
+                                        SHOP NOW
+                                    </button>
+                                </NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -37,6 +41,12 @@
         </section>
 
         <OurMission />
+
+        <NuxtLink :to="{ name: 'AboutUs' }">
+            <div class="button__div">
+                <button>LEARN MORE</button>
+            </div>
+        </NuxtLink>
 
         <section class="partners__section">
             <h5>PARTNERS</h5>
@@ -226,9 +236,11 @@
                     </div>
                 </div>
             </div>
-            <div class="button__div">
-                <button>SEE ALL PRODUCTS</button>
-            </div>
+            <NuxtLink :to="{ name: 'Products' }">
+                <div class="button__div">
+                    <button>SEE ALL PRODUCTS</button>
+                </div>
+            </NuxtLink>
         </section>
 
         <section class="get__notified">

@@ -26,9 +26,6 @@
                 </div>
             </div>
         </div>
-        <div class="button__div">
-            <button>LEARN MORE</button>
-        </div>
     </section>
 </template>
 <script>
